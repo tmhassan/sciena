@@ -1,0 +1,105 @@
+/* Component-specific styles */
+
+/* Button variations */
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:bg-gray-700;
+}
+
+.btn-ghost {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed dark:text-gray-300 dark:hover:bg-gray-800;
+}
+
+/* Input variations */
+.input-primary {
+  @apply block w-full rounded-lg border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-primary-500 focus:outline-none focus:ring-1 focus:ring-primary-500 sm:text-sm dark:bg-gray-800 dark:border-gray-600 dark:text-white dark:placeholder-gray-500;
+}
+
+/* Card variations */
+.card-base {
+  @apply bg-white rounded-xl shadow-sm border border-gray-200 dark:bg-gray-800 dark:border-gray-700 dark:shadow-gray-900/20;
+}
+
+.card-hover {
+  @apply card-base transition-all duration-200 hover:shadow-md hover:shadow-gray-200/60 dark:hover:shadow-gray-900/40 hover:-translate-y-0.5;
+}
+
+/* Badge variations */
+.badge-primary {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-200;
+}
+
+.badge-secondary {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-secondary-100 text-secondary-800 dark:bg-secondary-900 dark:text-secondary-200;
+}
+
+.badge-success {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200;
+}
+
+.badge-warning {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200;
+}
+
+.badge-danger {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200;
+}
+
+/* Evidence level badges */
+.evidence-high {
+  @apply badge-success;
+}
+
+.evidence-moderate {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200;
+}
+
+.evidence-low {
+  @apply badge-warning;
+}
+
+.evidence-very-low {
+  @apply badge-danger;
+}
+
+/* Safety rating badges */
+.safety-excellent {
+  @apply badge-success;
+}
+
+.safety-good {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-lime-100 text-lime-800 dark:bg-lime-900 dark:text-lime-200;
+}
+
+.safety-moderate {
+  @apply badge-warning;
+}
+
+.safety-poor {
+  @apply badge-danger;
+}
+
+.safety-unknown {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200;
+}
+
+/* Loading animations */
+.skeleton {
+  @apply animate-pulse bg-gray-200 dark:bg-gray-700 rounded;
+}
+
+.spinner {
+  @apply inline-block w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin;
+}
+
+/* Gradient backgrounds for sections */
+.hero-section {
+  @apply bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900;
+}
+
+.feature-section {
+  @apply bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900;
+}
