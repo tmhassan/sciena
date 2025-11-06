@@ -96,7 +96,7 @@ sciena/
 
 #### 1. Clone Repository
 ```bash
-git clone https://github.com/z0d1a/sciena.git
+git clone https://github.com/tmhassan/sciena.git
 cd sciena
 ```
 
@@ -573,7 +573,7 @@ MIT License - Free for educational and research use.
 
 ## 📧 Contact
 
-Created by [@z0d1a](https://github.com/z0d1a)
+Created by [@tmhassan](https://github.com/tmhassan)
 
 ---
 
